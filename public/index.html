@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="style/tailwind.css" />
+</head>
+
+<body>
+
+    <main class="bg-white max-w-screen-xl mx-auto px-4 mt-50">
+        <div class="grid grid-cols-12 grid-flow-col md:divide-x-2">
+            <!-- SIDE BAR -->
+            <div class="col-span-3 w-max hidden md:block">
+                <div class="mb-50 user-profile text-center">
+                    <img src="assets/images/avatar.png" alt="avatar" class="mx-auto" />
+                    <div class="text-black font-medium text-18 mt-3">
+                        Anne Taylor
+                    </div>
+                    <div class="text-subtleGrey-4 font-light text-base mt-1">
+                        Website Designer
+                    </div>
+                </div>
+                <div class="links">
+                    <div>
+                        <a href="#"
+                            class="active bg-purple-3 rounded-18px text-white py-4 px-5 text-18 font-medium inline-flex items-center">
+                            <img src="assets/icons/Icon_select_apps_solid.svg" alt="icons" class="mr-5" />
+                            <span>Dashboard</span>
+                            <span
+                                class="rounded-full bg-blue-1 text-blue-3 font-semibold text-10 py-1 px-2 ml-2">PRO</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-subtleGrey-4 font-normal text-18 inline-flex items-center px-5 py-4">
+                            <img src="assets/icons/Icon_menu_solid.svg" alt="icons" class="mr-5">
+                            <span>Courses</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-subtleGrey-4 font-normal text-18 inline-flex items-center px-5 py-4">
+                            <img src="assets/icons/Icon_user_solid.svg" alt="icons" class="mr-5">
+                            <span>Students</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-subtleGrey-4 font-normal text-18 inline-flex items-center px-5 py-4">
+                            <img src="assets/icons/Icon_mail_solid.svg" alt="icons" class="mr-5">
+                            <span>Discussions</span>
+                            <span
+                                class="rounded-full bg-blue-1 text-blue-3 font-semibold text-10 py-1 px-2 ml-2">PRO</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-subtleGrey-4 font-normal text-18 inline-flex items-center px-5 py-4">
+                            <img src="assets/icons/Icon_star_solid.svg" alt="icons" class="mr-5">
+                            <span>Reviews</span>
+                            <span
+                                class="rounded-full bg-blue-1 text-blue-3 font-semibold text-10 py-1 px-2 ml-2">PRO</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-subtleGrey-4 font-normal text-18 inline-flex items-center px-5 py-4">
+                            <img src="assets/icons/Icon_settings_solid.svg" alt="icons" class="mr-5">
+                            <span>My Settings</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-subtleGrey-4 font-normal text-18 inline-flex items-center px-5 py-4">
+                            <img src="assets/icons/Icon_exit_solid.svg" alt="icons" class="mr-5">
+                            <span>Log Out</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="col-span-10 items-center">
+                <div class="md:pl-14 md:ml-1">
+                    <section class="course-progress mb-50">
+                        <h1 class="font-semibold text-28 text-black mb-5">Course Progress</h1>
+                        <div class="flex flex-col md:flex-row">
+                            <!-- CARD PROGRESS -->
+                            <div class="card-progress py-30 px-5 mr-30 bg-red-1 rounded-28px">
+                                <div class="progress-bar text-center mb-10">
+                                    <div class="container font-medium text-red-3 text-22 flex justify-center">
+                                        <div class="box px-7">
+                                            <div class="chart chart-red relative leading-100px" data-percent="50">
+                                                50%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-18 font-medium text-black mb-1">HTML5 Desgin</div>
+                                <div class="font-light text-red-3 text-base">140 Videos</div>
+                            </div>
+
+                            <!-- CARD PROGRESS -->
+                            <div class="card-progress py-30 px-5 mr-30 bg-purple-1 rounded-28px">
+                                <div class="progress-bar text-center mb-10">
+                                    <div class="container font-medium text-purple-3 text-22 flex justify-center">
+                                        <div class="box px-7">
+                                            <div class="chart-purple relative leading-100px" data-percent="68">
+                                                68%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-18 font-medium text-black mb-1">UI/UX Design</div>
+                                <div class="font-light text-purple-3 text-base">847 Videos</div>
+                            </div>
+
+                            <!-- CARD PROGRESS -->
+                            <div class="card-progress py-30 px-5 mr-30 bg-blue-1 rounded-28px">
+                                <div class="progress-bar text-center mb-10">
+                                    <div class="container font-medium text-blue-3 text-22 flex justify-center">
+                                        <div class="box px-7">
+                                            <div class="chart-blue relative leading-100px" data-percent="68">
+                                                68%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-18 font-medium text-black mb-1">UI/UX Design</div>
+                                <div class="font-light text-blue-3 text-base">847 Videos</div>
+                            </div>
+
+                            <!-- CARD PROGRESS -->
+                            <div class="card-progress py-30 px-5 mr-30 bg-softGreen-1 rounded-28px">
+                                <div class="progress-bar text-center mb-10">
+                                    <div class="container font-medium text-softGreen-3 text-22 flex justify-center">
+                                        <div class="box px-7">
+                                            <div class="chart-green relative leading-100px" data-percent="68">
+                                                68%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-18 font-medium text-black mb-1">UI/UX Design</div>
+                                <div class="font-light text-softGreen-3 text-base">847 Videos</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="ongoing-competitions">
+                        <h1 class="font-semibold text-28 text-black mb-5">Ongoing Competitions</h1>
+                        <div class="items-card grid grid-cols-12 gap-8">
+                            <!-- CARD 1 -->
+                            <div class="placeholder col-span-5  bg-subtleGrey-1 rounded-28px p-5">
+                                <div class="title text-black text-xl font-medium">
+                                    Design & Build Finance App
+                                </div>
+                                <div class="subtitle text-subtleGrey-3 font-light text-base mt-1 mb-5">
+                                    Total Prize $28,600,870
+                                </div>
+                                <!-- MUST HAVE MAX LINE LIMIT -->
+                                <div
+                                    class="description leading-7 font-normal text-base text-black overflow-ellipsis h-20">
+                                    Solving the problems that appear in the
+                                    new era of technology world. We need
+                                    come with the mobile friend
+                                </div>
+                                <div class="text-subtleGrey-3 font-light text-base mt-5 mb-2">
+                                    Participants
+                                </div>
+                                <div class="inline-flex items-center">
+                                    <img src="assets/images/user-1.png" alt="img" class="w-10" />
+                                    <img src="assets/images/user-2.png" alt="img" class="w-10 -ml-2" />
+                                    <img src="assets/images/user-3.png" alt="img" class="w-10 -ml-2" />
+                                    <img src="assets/images/user-4.png" alt="img" class="w-10 -ml-2" />
+                                    <img src="assets/images/user-5.png" alt="img" class="w-10 -ml-2" />
+                                    <span
+                                        class="text-sm text-white font-medium rounded-full bg-purple-3 -ml-2 px-2 py-10px">+10</span>
+                                </div>
+                            </div>
+                            <!-- CARD 2-->
+                            <div class="placeholder col-span-5  bg-subtleGrey-1 rounded-28px p-5">
+                                <div class="title text-black text-xl font-medium">
+                                    Charity Website
+                                </div>
+                                <div class="subtitle text-subtleGrey-3 font-light text-base mt-1 mb-5">
+                                    Non-Profit
+                                </div>
+                                <div
+                                    class="description leading-7 font-normal text-base text-black overflow-ellipsis h-20">
+                                    Helping elders to get what their needs
+                                    from people in the world.
+                                </div>
+                                <div class="text-subtleGrey-3 font-light text-base mt-5 mb-2">
+                                    Participants
+                                </div>
+                                <div class="inline-flex items-center">
+                                    <img src="assets/images/user-1.png" alt="img" class="w-10" />
+                                    <img src="assets/images/user-2.png" alt="img" class="w-10 -ml-2" />
+                                    <img src="assets/images/user-3.png" alt="img" class="w-10 -ml-2" />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie Chart -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
+        charset="utf-8"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.chart-red').easyPieChart({
+                size: 100,
+                barColor: "#B46F78",
+                scaleLength: 0,
+                lineWidth: 8,
+                trackColor: "#E8CCCF",
+                lineCap: "circle",
+                animate: 2000,
+            });
+            $('.chart-purple').easyPieChart({
+                size: 100,
+                barColor: "#5843BE",
+                scaleLength: 0,
+                lineWidth: 8,
+                trackColor: "#D6D2E9",
+                lineCap: "circle",
+                animate: 2000,
+            });
+            $('.chart-blue').easyPieChart({
+                size: 100,
+                barColor: "#1A55AF",
+                scaleLength: 0,
+                lineWidth: 8,
+                trackColor: "#D2E2F1",
+                lineCap: "circle",
+                animate: 2000,
+            });
+            $('.chart-green').easyPieChart({
+                size: 100,
+                barColor: "#427A0A",
+                scaleLength: 0,
+                lineWidth: 8,
+                trackColor: "#EBE6D8",
+                lineCap: "circle",
+                animate: 2000,
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
