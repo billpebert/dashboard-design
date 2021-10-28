@@ -57,6 +57,16 @@ module.exports = {
       },
       lineHeight: {
         '100px': '100px'
+      },
+      backgroundImage: {
+        'ic_search': "url('/public/assets/icons/Icon_search_outline.svg')"
+      },
+      backgroundSize: {
+        '24px': '24px',
+        '16px': '16px'
+      },
+      backgroundPosition: {
+        'ic-search-position': 'calc(20px) center'
       }
     },
   },
