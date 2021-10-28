@@ -18,7 +18,7 @@
         }
 
         .bg-ic_search {
-            background-image: url('/public/assets/icons/Icon_search_outline.svg');
+            background-image: url('assets/icons/Icon_search_outline.svg');
             background-size: 24px;
             background-position: calc(20px) center;
         }
@@ -91,7 +91,7 @@
             </div>
 
             <!-- FLOATING NAVIGATION -->
-            <div class="fixed bottom-0 z-50 hidden">
+            <div class="fixed bottom-0 z-50 block lg:hidden">
                 <div class="inline-flex p-5 mb-8 space-x-3 shadow-lg bg-purple-3 rounded-3xl">
                     <a href="#" class="p-3 bg-purple-400 rounded-full">
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="currentColor"
@@ -166,8 +166,8 @@
                         <input type="text" placeholder="Search course, student, review, etc"
                             class="py-4 pr-5 text-sm font-normal bg-no-repeat outline-none flex-shrink-1 md:flex-grow w-max rounded-2xl placeholder-subtleGrey-4 md:ext-18 bg-subtleGrey-1 ring-0 focus:ring-2 focus:ring-purple-2 bg-ic_search pl-14" />
                         <a href="#"
-                            class="inline-flex items-center px-5 text-sm font-normal text-center transition duration-300 ease-out md:flex-grow-0 md:py-4 rounded-2xl bg-subtleGrey-1 md:text-18 text-subtleGrey-4 focus:bg-purple-3 focus:text-white ring-0 focus:ring-2 focus:ring-purple-2">
-                            <img src="assets/icons/Icon_filter_hor_outline.svg" alt="icons" class="block" />
+                            class="inline-flex items-center px-5 text-sm font-normal text-center transition duration-300 ease-out md:py-4 rounded-2xl bg-subtleGrey-1 md:text-18 text-subtleGrey-4 focus:bg-purple-3 focus:text-white ring-0 focus:ring-2 focus:ring-purple-2">
+                            <img src="assets/icons/Icon_filter_hor_outline.svg" alt="icons" class="hidden md:block" />
                             &nbsp; <span class="tracking-wide">Filters</span>
                         </a>
                     </section>
